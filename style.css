@@ -579,7 +579,7 @@ form > textarea {
       }
       .desktop_version {
           display: block;
-          width: 280px;
+          width: 380px;
       }
       .mobile_version {
           display: none;
@@ -622,4 +622,5 @@ form > textarea {
     form > textarea {
         font-size: 16px;
     }
+    
 }
