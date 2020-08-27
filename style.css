@@ -579,7 +579,7 @@ form > textarea {
       }
       .desktop_version {
           display: block;
-          width: 580px;
+          width: 280px;
       }
       .mobile_version {
           display: none;
