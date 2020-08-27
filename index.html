@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+      <title>Oscar Calzada | Developer/Designer/Problem Solver</title>
+      <meta name="author" content="Oscar Calzada">
+      <meta name="description" content="personal web/developer portfolio by Oscar Calzada">
+      <meta name="keywords" content="Oscar, Calzada, Developer, Designer, Front End, Back End, Website builder, Web Developer">
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" type="text/css" href="style.css">
+      <link href="https://fonts.googleapis.com/css2?family=Sura:wght@400;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!--Mobile Navigation Menu-->
+        <nav class="mobile_menu">
+          <a href="index.html"><img class="oscars_logo" src="3D PRD LOGO.jpg" alt="oscars logo"></a>
+           <h1 class="mobile_title">Oscar Calzada</h1>
+           <img src="x-icon-min.png" class="exit_icon" alt="exit icon">
+          <ul class="list">
+              <li class="list_item"><a href="#portfolio" class="nav_link_mobile">Portfolio</a></li>
+              <li class="list_item"><a href="#skills" class="nav_link_mobile">Skills</a></li>
+              <li class="list_item"><a href="https://github.com/oscarcalzadadev" rel="noreferrer" target="_blank" class="nav_link_mobile">Github</a></li>
+              <li class="list_item"><a href="https://www.linkedin.com/in/oscarcalzada/" rel="noreferrer" target="_blank" class="nav_link_mobile">LinkedIn</a></li>
+              <li class="list_item"><a href="oscars-resume.pdf" target="_blank" class="nav_link_mobile">Resume</a></li>
+              <li class="list_item"><a href="#contact" class="nav_link_mobile">Contact</a></li>
+            </ul>
+        </nav>
+        <!--Header/Navbar-->
+        <header class="header">
+          <img src="bg-icon.png" class="burger_icon" alt="burger menu">
+          <!--Clickable Logo-->
+          <nav class="nav">
+            <a href="index.html"><img class="oscars_logo" src="3D PRD LOGO.jpg" alt="oscars logo"></a>
+            <ul class="list">
+              <li class="list_item"><a href="#portfolio" class="nav_link">Portfolio</a></li>
+              <li class="list_item"><a href="#skills" class="nav_link">Skills</a></li>
+              <li class="list_item"><a href="https://github.com/oscarcalzadadev" rel="noreferrer" target="_blank" class="nav_link">Github</a></li>
+              <li class="list_item"><a href="https://www.linkedin.com/in/oscarcalzada/" rel="noreferrer" target="_blank" class="nav_link">LinkedIn</a></li>
+              <li class="list_item"><a href="oscars-resume.pdf" target="_blank" class="nav_link">Resume</a></li>
+              <li class="list_item"><a href="#contact" class="nav_link">Contact</a></li>
+            </ul>
+          </nav>
+          <!--Background Video-->
+          <section class="main_video_container">
+            <aside class="video_container">
+              <video class="video" src="oscar-background-video.mp4" autoplay muted loop></video>
+            </aside>
+            
+            <!--Video Overlay-->
+            <aside class="overlay">
+              <div class="text_container">
+                <p class="title">OSCAR CALZADA</p>
+                <p class="subtitle">DEVELOPER, DESIGNER & <span class="transition_text">PROBLEM SOLVER</span></p>
+              </div> 
+        </header>
+        <!--Main-->
+          <main>
+            <!--Skills Section-->
+            <section class="skills_container" id="skills">
+              <aside class="skills_title_container">
+                <h2 class="skills_title">SKILLS</h2>
+              </aside>
+              <div class="skills_boxes_grid">
+                <aside class="skills_boxes_container languages">
+                  <img src="coding-icon.png" class="coding_icon" alt='coding icon'>
+                  <h2 class="skill_name">LANGUAGES</h2>
+                  <p class="skill">HTML</p>
+                  <p class="skill">CSS</p>
+                  <p class="skill">JavaScript</p>
+                  <p class="skill">PHP</p>
+                  <p class="skill">mySQL</p>
+                </aside>
+                <aside class="skills_boxes_container second_box">
+                  <img src="tools-icon.png" class="tools_icon" alt='tool icon'>
+                  <h2 class="skill_name">TOOLS</h2>
+                  <p class="skill">Visual Studio Code</p>
+                  <p class="skill">Chrome Dev Tools</p>
+                  <p class="skill">Adobe XD</p>
+                  <p class="skill">GitHub</p>
+                  <p class="skill">Git</p>
+                </aside>
+                <aside class="skills_boxes_container third_box">
+                  <img src="canvas-icon.jpg" class="canvas_icon" alt='design icon'>
+                  <h2 class="skill_name">DESIGN</h2>
+                  <p class="skill">Wireframing</p>
+                  <p class="skill">Prototyping</p>
+                  <p class="skill">Responsive Design</p>
+                  <p class="skill">Photoshop</p>
+                </aside>
+              </div>
+            </section>
+            <!--Portfolio Section-->
+            <div id="portfolio"></div>
+            <section class="portfolio_container">
+              <h2 class="portfolio_title">PORTFOLIO<br>(Coming Soon)</h2>
+              <div class="project_grid_container">
+                <aside class="portfolio_item_container">
+                  <img src="desktop.png" class="desktop_version" alt="image of website on desktop">
+                  <img src="phone.png" class="mobile_version" alt="image of website on mobile">
+                </aside>
+                <aside class="portfolio_information_container">
+                  <p class="item_title">Boxless Media</p>
+                  <p class="paragraph">This project was made in collaboration with boxless media. The owner of one of Chicago's top digital marketing agencies wanted a complete redesign of their original websites along with some new microsites as well</p>
+                  <p class="language_used_title">LANGUAGES: HTML, CSS & JAVASCRIPT</p>
+                </aside>
+              </div>
+              
+            </section>
+          </main>
+        <!--Footer/Form-->
+          <footer>
+            <section class="contact_container" id="contact">
+              <form data-netlify="true" method="POST">
+                <h3 class="form_title">Contact Oscar</h3>
+                <label for="name">Name*</label>
+                <input name="name" type="text" id="name">
+                <label for="email">Email*</label>
+                <input name="email" type="email" id="email">
+                <label for="message">Message*</label>
+                <textarea name="message" id="message"></textarea>
+                <input name="submit" type="submit">
+              </form>
+            </section>
+          </footer>
+      <script src="script.js"></script>
+    </body>
+</html>
